@@ -1,0 +1,70 @@
+html {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  body {
+    background-image: url('/static/css/iris-flowers.jpg');
+    background-size: cover;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .card-deck .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: #f8f9fa;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .alert {
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .bg-dark {
+    background-color: #343a40 !important;
+  }
+  
+  .text-white {
+    color: #ffffff !important;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    border: 1px solid #343a40;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+  
+  .btn-dark:hover {
+    background-color: #1d2124;
+    border: 1px solid #1d2124;
+    color: #ffffff;
+  }
+  
